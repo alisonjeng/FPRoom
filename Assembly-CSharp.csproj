@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Doors.cs" />
+     <Compile Include="Assets\Scripts\Doors2.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\FirstPersonDrifter.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\LockMouse.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\MouseLook.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Scripts\GameVariable.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\Pickupable.cs" />
+     <Compile Include="Assets\Scripts\Pickupable2.cs" />
      <None Include="Assets\First Person Drifter Controller\info.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>

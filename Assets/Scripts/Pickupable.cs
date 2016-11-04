@@ -53,9 +53,9 @@ public class Pickupable : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter(Collider col)
+	void OnTriggerEnter(Collider collide)
 	{
-		if(col.gameObject.tag == "Door" && GameVariables.keyCount>0)
+		if(collide.gameObject.tag == "KeyDestroy" && GameVariables.keyCount>0)
 		{ destroyObject ();
 		}
 	}
@@ -65,8 +65,10 @@ public class Pickupable : MonoBehaviour {
 		//carriedObject.gameObject.rigidbody.isKinematic = false;
 		//carriedObject.gameObject.GetComponent<Rigidbody>().useGravity = true;
 		carriedObject = null;
-		Destroy (gameObject); 
+		gameObject.SetActive (false);  
+	 
 	}
+
 		
 }
 

@@ -31,7 +31,7 @@ public class Doors : MonoBehaviour {
 		{
 			doorOpen = false;
 			DoorControl ("Close");
-			GameVariables.keyCount--; 
+			GameVariables.keyCount-=1; 
 		}
 	}
 
