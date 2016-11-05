@@ -3,29 +3,29 @@ using System.Collections;
 
 public class TrapDoorPlaneDestroy : MonoBehaviour {
 
-	Animator animator;
-	bool doorOpen;
+	//Animator animator;
+	//bool doorOpen;
 
 
 
 	void Start()
 	{
-		doorOpen = false;
-		animator = GetComponent<Animator>();
+		//doorOpen = false;
+		//animator = GetComponent<Animator>();
 	}
 
 	void OnTriggerEnter(Collider co)
 	{
-		if(co.gameObject.tag == "Key" && GameVariables.keyCount>0)
+		if(co.gameObject.tag == "Key" && GameVariables.keyCount>=1)
 		{
-			doorOpen = true;
-			DoorControl ("Open");
+			//doorOpen = true;
+			//DoorControl ("Open");
 			//GameVariables.keyCount--;
-
+			gameObject.SetActive(false); 
 		}
 	}
 
-	void OnTriggerExit(Collider col)
+	/*void OnTriggerExit(Collider col)
 	{
 		if(doorOpen)
 		{
@@ -39,6 +39,6 @@ public class TrapDoorPlaneDestroy : MonoBehaviour {
 	void DoorControl(string direction)
 	{
 		animator.SetTrigger(direction);
-	}
+	}*/
 
 }
