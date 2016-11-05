@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Doors2.cs">
     <Files>
-      <File FileName="Assets/Scripts/Doors.cs" Line="34" Column="28" />
+      <File FileName="Assets/Scripts/Pickupable2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Doors.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Key.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GameVariable.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Doors2.cs" Line="9" Column="24" />
-      <File FileName="Assets/Scripts/Pickupable2.cs" Line="45" Column="16" />
+      <File FileName="Assets/Scripts/Doors2.cs" Line="9" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

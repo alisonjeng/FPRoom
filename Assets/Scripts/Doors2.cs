@@ -6,7 +6,7 @@ public class Doors2 : MonoBehaviour {
 	Animator animator;
 	bool doorOpen;
 
-	public float speed = 3; 
+	public float speed = 0.1f; 
 
 
 
