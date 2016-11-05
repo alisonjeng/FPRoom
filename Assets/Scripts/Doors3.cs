@@ -1,15 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Doors2 : MonoBehaviour {
+public class Doors3 : MonoBehaviour {
 
 	Animator animator;
 	bool doorOpen;
-	public int Layer; 
-	public float animSpeed; 
-
-
-
 
 
 
@@ -17,32 +12,26 @@ public class Doors2 : MonoBehaviour {
 	{
 		doorOpen = false;
 		animator = GetComponent<Animator>();
-		if( animator.GetCurrentAnimatorStateInfo(Layer).IsName("Open"))
-		{
-			animator.speed = animSpeed;
-		}
 	}
 
-	void OnTriggerEnter(Collider collid)
+	void OnTriggerEnter(Collider coll)
 	{
-		if(collid.gameObject.tag == "Player" && GameVariables.keyCount>0)
+		if(coll.gameObject.tag == "Player" && GameVariables.keyCount>0)
 		{
 			doorOpen = true;
 			DoorControl ("Open");
 			//GameVariables.keyCount--;
 
-
 		}
 	}
 
-	void OnTriggerExit(Collider collid)
+	void OnTriggerExit(Collider coll)
 	{
 		if(doorOpen)
 		{
 			doorOpen = false;
 			DoorControl ("Close");
-			//GameVariables.keyCount-=1; 
-		
+			GameVariables.keyCount-=1; 
 		}
 	}
 
