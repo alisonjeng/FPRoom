@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Doors4 : MonoBehaviour {
+public class Doors : MonoBehaviour {
 
 	Animator animator;
 	bool doorOpen;
-	 
+
 
 
 	void Start()
@@ -16,12 +16,12 @@ public class Doors4 : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.gameObject.tag == "Player" && GameVariables.keyCount>0)
+		if(col.gameObject.tag == "Player" && GameVariables.keyCount>2)
 		{
 			doorOpen = true;
 			DoorControl ("Open");
 			//GameVariables.keyCount--;
-			 
+
 		}
 	}
 
