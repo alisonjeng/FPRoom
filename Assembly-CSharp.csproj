@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Doors.cs" />
      <Compile Include="Assets\Scripts\Doors2.cs" />
      <Compile Include="Assets\Scripts\Doors3.cs" />
+     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\FirstPersonDrifter.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\LockMouse.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\MouseLook.cs" />

@@ -1,14 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TrapDoorPlaneDestroy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/TrapDoorPlaneDestroy.cs" Line="19" Column="58" />
-      <File FileName="Assets/Scripts/Doors2.cs" Line="44" Column="30" />
-      <File FileName="Assets/Scripts/Pickupable3.cs" Line="58" Column="14" />
-      <File FileName="Assets/Scripts/Pickupable2.cs" Line="55" Column="2" />
-      <File FileName="Assets/Scripts/Doors3.cs" Line="42" Column="5" />
-      <File FileName="Assets/Scripts/Doors.cs" Line="34" Column="28" />
-      <File FileName="Assets/Scripts/Key.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="29" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
