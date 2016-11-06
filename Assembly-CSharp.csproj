@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Doors2.cs" />
      <Compile Include="Assets\Scripts\Doors3.cs" />
      <Compile Include="Assets\Scripts\Doors4.cs" />
+     <Compile Include="Assets\Scripts\Doors5.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\FirstPersonDrifter.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\LockMouse.cs" />
@@ -65,6 +66,7 @@
      <Compile Include="Assets\Scripts\Pickupable2.cs" />
      <Compile Include="Assets\Scripts\Pickupable3.cs" />
      <Compile Include="Assets\Scripts\Pickupable4.cs" />
+     <Compile Include="Assets\Scripts\Pickupable5.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\TrapDoorPlaneDestroy.cs" />
      <None Include="Assets\First Person Drifter Controller\info.txt" />
