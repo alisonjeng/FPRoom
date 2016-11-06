@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Doors : MonoBehaviour {
+public class Doors4 : MonoBehaviour {
 
 	Animator animator;
 	bool doorOpen;
@@ -16,7 +16,7 @@ public class Doors : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.gameObject.tag == "Player" && GameVariables.keyCount>2)
+		if(col.gameObject.tag == "Player" && GameVariables.keyCount>=2)
 		{
 			doorOpen = true;
 			DoorControl ("Open");

@@ -7,6 +7,7 @@ public class Doors2 : MonoBehaviour {
 	bool doorOpen;
 	public int Layer; 
 	public float animSpeed; 
+	public GameObject EnemyRoom3;
 
 
 
@@ -29,7 +30,8 @@ public class Doors2 : MonoBehaviour {
 		{
 			doorOpen = true;
 			DoorControl ("Open");
-			//GameVariables.keyCount--;
+			EnemyRoom3.SetActive (true); 
+			 GameVariables.keyCount--;
 
 
 		}
@@ -41,7 +43,7 @@ public class Doors2 : MonoBehaviour {
 		{
 			doorOpen = false;
 			DoorControl ("Close");
-			GameVariables.keyCount--; 
+			 
 		
 		}
 	}

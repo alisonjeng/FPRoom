@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Doors4 : MonoBehaviour {
+public class Doors : MonoBehaviour {
 
 	Animator animator;
 	bool doorOpen;

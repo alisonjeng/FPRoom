@@ -5,7 +5,7 @@ public class TrapDoorPlaneDestroy : MonoBehaviour {
 
 	//Animator animator;
 	//bool doorOpen;
-
+	public GameObject EnemyRoom4; 
 
 
 	void Start()
@@ -22,6 +22,7 @@ public class TrapDoorPlaneDestroy : MonoBehaviour {
 			//DoorControl ("Open");
 			GameVariables.keyCount--;
 			gameObject.SetActive(false); 
+			EnemyRoom4.SetActive (true); 
 		}
 	}
 

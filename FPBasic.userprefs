@@ -1,8 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Doors2.cs">
     <Files>
-      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="29" Column="5" />
+      <File FileName="Assets/Scripts/Pickupable4.cs" Line="61" Column="3" />
+      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="39" Column="2" />
+      <File FileName="Assets/Scripts/Pickupable3.cs" Line="79" Column="1" />
+      <File FileName="Assets/Scripts/Doors.cs" Line="4" Column="19" />
+      <File FileName="Assets/Scripts/GameVariable.cs" Line="6" Column="34" />
+      <File FileName="Assets/Scripts/PlayerControl.cs" Line="23" Column="4" />
+      <File FileName="Assets/Scripts/Doors2.cs" Line="34" Column="5" />
+      <File FileName="Assets/Scripts/TrapDoorPlaneDestroy.cs" Line="25" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

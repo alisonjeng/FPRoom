@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\Pickupable2.cs" />
      <Compile Include="Assets\Scripts\Pickupable3.cs" />
      <Compile Include="Assets\Scripts\Pickupable4.cs" />
+     <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\TrapDoorPlaneDestroy.cs" />
      <None Include="Assets\First Person Drifter Controller\info.txt" />
  <Reference Include="UnityEngine.Networking">
