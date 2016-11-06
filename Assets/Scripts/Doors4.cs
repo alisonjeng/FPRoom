@@ -5,7 +5,7 @@ public class Doors4 : MonoBehaviour {
 
 	Animator animator;
 	bool doorOpen;
-
+	public GameObject EnemyRoom5; 
 
 
 	void Start()
@@ -32,6 +32,7 @@ public class Doors4 : MonoBehaviour {
 			doorOpen = false;
 			DoorControl ("Close");
 			GameVariables.keyCount--; 
+			EnemyRoom5.SetActive (true); 
 		}
 	}
 
