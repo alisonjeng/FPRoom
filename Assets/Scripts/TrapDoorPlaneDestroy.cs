@@ -22,7 +22,7 @@ public class TrapDoorPlaneDestroy : MonoBehaviour {
 			//DoorControl ("Open");
 			GameVariables.keyCount--;
 			gameObject.SetActive(false); 
-			EnemyRoom4.SetActive (true); 
+			//EnemyRoom4.SetActive (true); 
 		}
 	}
 
