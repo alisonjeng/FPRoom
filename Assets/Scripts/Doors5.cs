@@ -6,6 +6,7 @@ using System.Collections;
 
 		Animator animator;
 		bool doorOpen;
+	public GameObject GameManagerGO; 
 
 
 
@@ -23,6 +24,7 @@ using System.Collections;
 				DoorControl ("Open");
 				//GameVariables.keyCount--;
 			gameObject.GetComponent<AudioSource>().Play(); 
+			GameManagerGO.GetComponent<GameManager> ().SetGameManagerState (GameManager.GameManagerState.Escaped);
 
 			}
 		}
