@@ -32,6 +32,7 @@ public class Doors2 : MonoBehaviour {
 			DoorControl ("Open");
 			EnemyRoom3.SetActive (true); 
 			 GameVariables.keyCount--;
+			gameObject.GetComponent<AudioSource>().Play(); 
 
 
 		}

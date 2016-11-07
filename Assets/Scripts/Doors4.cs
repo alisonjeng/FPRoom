@@ -21,7 +21,7 @@ public class Doors4 : MonoBehaviour {
 			doorOpen = true;
 			DoorControl ("Open");
 			//GameVariables.keyCount--;
-
+			gameObject.GetComponent<AudioSource>().Play(); 
 		}
 	}
 
@@ -33,6 +33,7 @@ public class Doors4 : MonoBehaviour {
 			DoorControl ("Close");
 			GameVariables.keyCount--; 
 			EnemyRoom5.SetActive (true); 
+
 		}
 	}
 

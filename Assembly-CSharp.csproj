@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\FirstPersonScripts\Optional\HeadBob.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\Optional\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\FirstPersonScripts\Utils\CameraFade.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameVariable.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\Pickupable.cs" />

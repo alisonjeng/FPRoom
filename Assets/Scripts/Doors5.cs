@@ -22,6 +22,7 @@ using System.Collections;
 				doorOpen = true;
 				DoorControl ("Open");
 				//GameVariables.keyCount--;
+			gameObject.GetComponent<AudioSource>().Play(); 
 
 			}
 		}
@@ -33,6 +34,7 @@ using System.Collections;
 				doorOpen = false;
 				DoorControl ("Close");
 				GameVariables.keyCount--; 
+
 			}
 		}
 

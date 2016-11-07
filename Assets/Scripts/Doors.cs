@@ -20,6 +20,7 @@ public class Doors : MonoBehaviour {
 		{
 			doorOpen = true;
 			DoorControl ("Open");
+			gameObject.GetComponent<AudioSource>().Play(); 
 			//GameVariables.keyCount--;
 			 
 		}

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerControl : MonoBehaviour {
 
+	public GameObject GameManagerGO; 
+
 	// Use this for initialization
 	void Start () {
 	
@@ -18,8 +20,9 @@ public class PlayerControl : MonoBehaviour {
 	{
 		if (collides.gameObject.tag == "Enemy") {
 			//GameVariables.playerHealth = -1;
-			gameObject.SetActive (false); 
+			//gameObject.SetActive (false); 
 			//go to game over scene
+			GameManagerGO.GetComponent<GameManager> ().SetGameManagerState (GameManager.GameManagerState.End);
 		}
 	 
 
